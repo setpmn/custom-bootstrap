@@ -1,0 +1,54 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style-type: none;
+}
+.bg-secondary{
+    background-color: #e9e9ec!important;
+}
+.logo{
+    width: 100px;
+}
+.logo>a{
+    margin: auto;
+}
+.logo>a>img{
+    width: 50px;
+}
+.landing-page{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.landing-page:hover{
+    cursor: pointer;
+    color: #4044ee;
+    transform: translateY(-7px);
+    transition: all 0.5s;
+}
+.landing-page figure img{
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.landing-page figure img:hover{
+    border-color: #4044ee;
+}
+.landing-page>b{
+    margin: 20px 0;
+}
+.email-sec{
+    display: flex;
+    margin: auto;
+}
+.inp-email{
+    border: solid 1px #d4d6e5;
+    display: flex;
+    align-items: center;
+}
+.inp-email i{
+    padding: 0 20px;
+}
+.inp-email input{
+    border: none;
+}
